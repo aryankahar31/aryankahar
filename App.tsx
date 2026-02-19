@@ -130,7 +130,7 @@ const App: React.FC = () => {
         <div className="max-w-screen-2xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-12 gap-12 md:gap-20 items-start">
             <div className="md:col-span-5">
-              <h2 className="text-5xl md:text-[6vw] font-heavy uppercase leading-[0.85] mb-8 md:mb-12 tracking-tighter break-words">ENGINEERING<br/>THE NEXT<br/>STANDARD</h2>
+              <h2 className="text-[clamp(2.5rem,5.2vw,6.5rem)] font-heavy uppercase leading-[0.85] mb-8 md:mb-12 tracking-tighter">ENGINEERING<br/>THE NEXT<br/>STANDARD</h2>
               <div className="h-2 w-24 md:w-32 bg-[#E6FF00] mb-8 md:mb-12"></div>
               <p className="text-[10px] font-black uppercase tracking-[0.5em] text-[#111111]/40 mb-6 font-mono">LOG_ENTRY_CORE</p>
               <div className="flex flex-wrap gap-3">
