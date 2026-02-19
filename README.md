@@ -1,20 +1,36 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# ARYAN KAHAR — CINEMATIC PORTFOLIO
 
-# Run and deploy your AI Studio app
+System-grade interface for a cinematic, brutalist personal site. Built for speed, clarity, and presence.
 
-This contains everything you need to run your app locally.
+**What This Is**
+- A single-page portfolio with a cinematic hero, rotating cylinder gallery, and data-forward layout.
+- High-contrast, terminal-inspired typography and motion.
+- Clean project index, skills matrix, and experience log.
 
-View your app in AI Studio: https://ai.studio/apps/b489ddb2-e739-45e4-b3de-e52451ff6e09
+**Tech Stack**
+- `React 19`
+- `Vite 6`
+- `TypeScript`
+- `Tailwind (CDN)`
 
-## Run Locally
+**Local Run**
+```bash
+npm install
+npm run dev
+```
 
-**Prerequisites:**  Node.js
+**Build**
+```bash
+npm run build
+```
 
+**Structure**
+- `App.tsx` main layout and sections
+- `components/` UI modules (navigation, cursor, carousel, background)
+- `constants.tsx` content payloads (projects, skills, experience)
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+**Style Notes**
+- Cinematic brutalist layout
+- Heavy typography + monospace labels
+- Neon yellow accent (`#E6FF00`)
+- Controlled motion and hover states
